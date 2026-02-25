@@ -17,7 +17,7 @@ pipeline {
     stages{
         stage('check'){
             steps {
-                git url: 'https://github.com/Poornimj/InClassAssignment_SEProject.git'
+                git branch: 'main' , url: 'https://github.com/Poornimj/InClassAssignment_SEProject.git'
             }
         }
 
